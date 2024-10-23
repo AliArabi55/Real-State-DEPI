@@ -1,9 +1,4 @@
-# تثبيت المكتبات من ملف requirements.txt
-def install_requirements():
-    try:
-        subprocess.run(['pip', 'install', '-r', 'requirements.txt'], check=True)
-    except subprocess.CalledProcessError:
-        st.error("Failed to install required packages.")
+
 
 
         
